@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# OpeninApp Dashboard - React.js Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![OpeninApp Logo](https://your-logo-url.com)
 
-## Available Scripts
+Welcome to the OpeninApp Dashboard project! This web application enhances user experiences on various social media platforms by ensuring that links open in their respective mobile apps. OpeninApp has already gained popularity among influencers, brands, and millions of users. If you're passionate about improving user experiences for billions of people, welcome home!
 
-In the project directory, you can run:
+## Table of Contents
+- [About OpeninApp](#about-openinapp)
+- [Task Description](#task-description)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [API Data](#api-data)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+## About OpeninApp
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+OpeninApp aims to solve the suboptimal user experience issue on social media platforms, where links often open in web browsers instead of their respective mobile apps. With over 20,000 influencers, brands, and 55 million+ users, OpeninApp ensures that users can enjoy the full features of their favorite apps seamlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Task Description
 
-### `npm test`
+You are provided with a high-fidelity design that you need to convert into code using React.js or Next.js along with CSS/SASS/SCSS/LESS/Tailwind CSS. Please note that the use of any CSS framework other than the ones mentioned is prohibited.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**What You Need to Achieve:**
+- Implement basic Google authentication for login/signup using [NextAuth.js](https://next-auth.js.org/).
+- Create a pixel-perfect dashboard UI that replicates the provided design.
+- Implement mandatory profile functionality.
+- Ensure responsiveness across different screen sizes.
+- Integrate working charts with dummy data. You can fetch basic data using Axios/Fetch from a public repository ([Resource Link](https://openinapp.co/fmqjn)).
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Google Authentication**: Users can sign in or sign up using their Google accounts for a seamless experience.
+- **Pixel-Perfect Design**: The dashboard is designed to match the high-fidelity design provided.
+- **Profile Functionality**: Users can manage their profiles and settings.
+- **Responsive**: The application is responsive and adapts to various screen sizes.
+- **Interactive Charts**: Charts display relevant data using dummy information.
