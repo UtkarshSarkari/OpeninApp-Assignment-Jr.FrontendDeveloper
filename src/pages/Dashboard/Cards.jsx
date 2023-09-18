@@ -3,7 +3,7 @@ import React from "react";
 export default function Cards() {
   return (
     <div className="flex xl:w-[1000px] lg:w-[900px] max-xs:flex-wrap lg:flex-nowrap items-start justify-between gap-[17px] lg:mt-[40.5px] max-xs:mt-[60px] lg:px-0 max-xs:px-5 max-xs:items-center max-xs:justify-center">
-      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px]">
+      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px] cursor-pointer">
         <div className="w-[31.829px] h-[31.829px] flex-shrink-0 rounded-full bg-[#7fcd93] mt-[18.31px] ml-[26.84px]">
           <img
             className="w-[18.663px] h-[17.244px] flex-shrink-0 mt-[6.34px] ml-[6.58px]"
@@ -44,7 +44,7 @@ export default function Cards() {
           />
         </svg>
       </div>
-      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px]">
+      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px] cursor-pointer">
         <div className="w-[31.829px] h-[31.829px] flex-shrink-0 rounded-full bg-[#debf85] mt-[18.31px] ml-[26.84px]">
           <img
             className="w-[14.901px] h-[17.2px] flex-shrink-0 mt-[7.31px] ml-[8.46px]"
@@ -72,7 +72,7 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px]">
+      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px] cursor-pointer">
         <div className="w-[31.829px] h-[31.829px] flex-shrink-0 rounded-full bg-[#eca4a4] mt-[18.31px] ml-[26.84px]">
           <img
             className="w-[16.503px] h-[17px] flex-shrink-0 mt-[7.41px] ml-[7.66px]"
@@ -100,7 +100,7 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px]">
+      <div className="xl:w-[237.32px] lg:w-[200px] max-xs:w-[150px] sm:w-[180px] h-[120px] rounded-[19px] bg-white ring-[#e0e0e0] ring-[2px] cursor-pointer">
         <div className="w-[31.829px] h-[31.829px] flex-shrink-0 rounded-full bg-[#a9b0e5] mt-[18.31px] ml-[26.84px]">
           <img
             className="w-[20.193px] h-[13.164px] flex-shrink-0 mt-[9.33px] ml-[6.12px]"

@@ -141,7 +141,7 @@ const SignIn = () => {
           <div className="xl:mt-[28.54px] mt-10 flex md:flex-row max-xs:flex-col">
             <div className="">
               <div
-                className="md:w-[197.596px] max-xs:w-[360px] w-[198px] h-[34px] xl:h-[32.933px] flex-shrink-0 flex items-center justify-center z-[1] bg-white rounded-lg xl:shadow-none max-xs:shadow-md"
+                className="md:w-[197.596px] max-xs:w-[360px] w-[198px] h-[34px] xl:h-[32.933px] flex-shrink-0 flex items-center justify-center z-[1] bg-white rounded-lg xl:shadow-none max-xs:shadow-md cursor-pointer"
                 onClick={handleGoogleAuth}
               >
                 <img
@@ -157,7 +157,7 @@ const SignIn = () => {
               </div>
             </div>
             <div className="md:ml-[27.44px] max-xs:ml-0">
-              <div className="md:w-[197.596px] max-xs:w-[360px] w-[198px] h-[34px] xl:h-[32.933px] flex-shrink-0 flex items-center justify-center bg-white rounded-lg md:mt-0 max-xs:mt-4 xl:shadow-none max-xs:shadow-md">
+              <div className="md:w-[197.596px] max-xs:w-[360px] w-[198px] h-[34px] xl:h-[32.933px] flex-shrink-0 flex items-center justify-center bg-white rounded-lg md:mt-0 max-xs:mt-4 xl:shadow-none max-xs:shadow-md cursor-pointer">
                 <img
                   className="w-[12.624px] h-[15.369px] flex-shrink-0 xl:mt-[8.78px] xl:mb-[8.78px] xl:ml-[20.86px] mr-[10.98px]"
                   src="./images/Vector6.svg"
@@ -209,7 +209,7 @@ const SignIn = () => {
                 </span>
               </div>
               <div className="flex md:w-[356.77px] max-xs:w-[295px] h-[43.91px] justify-center items-center flex-shrink-0 mt-[21.96px]">
-                <button className="md:w-[356.77px] max-xs:w-[295px] h-[43.91px] flex-shrink-0 rounded-[10px] bg-bgSubmit">
+                <button className="md:w-[356.77px] max-xs:w-[295px] h-[43.91px] flex-shrink-0 rounded-[10px] bg-bgSubmit cursor-pointer">
                   <span className="w-[111.928px] h-[23.837px] flex-shrink-0 text-white align-middle font-montserrat text-[16px] font-bold">
                     {login ? <span>Sign In</span> : <span>Register</span>}
                   </span>
@@ -226,7 +226,7 @@ const SignIn = () => {
             </span>
             <span
               onClick={() => setLogin(false)}
-              className="text-link font-lato text-[16px] font-normal"
+              className="text-link font-lato text-[16px] font-normal cursor-pointer"
             >
               &nbsp;Register here
             </span>
@@ -238,7 +238,7 @@ const SignIn = () => {
             </span>
             <span
               onClick={() => setLogin(true)}
-              className="text-link font-lato text-[16px] font-normal"
+              className="text-link font-lato text-[16px] font-normal cursor-pointer"
             >
               &nbsp;Sign In here
             </span>

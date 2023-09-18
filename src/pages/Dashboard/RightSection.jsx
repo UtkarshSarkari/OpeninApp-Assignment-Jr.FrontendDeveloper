@@ -34,7 +34,7 @@ export default function RightSection() {
               alt=""
             />
           </div>
-          <div className="mt-[6.56px] ml-[13.79px]">
+          <div className="mt-[6.56px] ml-[13.79px] cursor-pointer">
             <img
               className="w-[18px] h-[20.888px] flex-shrink-0"
               src="./images/bell.svg"
@@ -42,7 +42,7 @@ export default function RightSection() {
             />
           </div>
           <div
-            className="w-[30px] h-[30px] rounded-full overflow-hidden ml-[27.61px]"
+            className="w-[30px] h-[30px] rounded-full overflow-hidden ml-[27.61px] cursor-pointer"
             onClick={() => setProfileOptionsOpen(!profileOptionsOpen)}
           >
             <img className="w-[30px] h-[30px]" src="./images/pp.png" alt="" />
@@ -51,7 +51,7 @@ export default function RightSection() {
           {profileOptionsOpen ? (
             <div className="absolute xl:text-sm lg:right-14 max-xs:right-20 lg:top-28 max-xs:top-40">
               <div className="xl:font-montserrat xl:bg-bg2">
-                <div className="xl:flex ring-2 xl:ring-bg3 xl:py-2 xl:px-6">
+                <div className="xl:flex ring-2 xl:ring-bg3 xl:py-2 xl:px-6 cursor-pointer">
                   Profile
                   <div className="xl:w-[20px] xl:h-[20px] xl:rounded-full xl:overflow-hidden xl:ml-4 xl:relative">
                     <img
@@ -62,7 +62,7 @@ export default function RightSection() {
                   </div>
                 </div>
                 <div
-                  className="xl:flex xl:items-center xl:justify-between xl:ring-2 xl:ring-bg3 xl:py-2 xl:px-6"
+                  className="xl:flex xl:items-center xl:justify-between xl:ring-2 xl:ring-bg3 xl:py-2 xl:px-6 cursor-pointer"
                   onClick={handleLogout}
                 >
                   Logout

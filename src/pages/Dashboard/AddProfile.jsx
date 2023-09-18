@@ -162,7 +162,7 @@ export default function AddProfile() {
         ) : (
           <div className="flex w-[82px] h-[116.784px] flex-col justify-center items-center gap-[16px] flex-shrink-0">
             <div
-              className="abc w-[76.784px] h-[76.784px] rounded-full bg-[#f5f5f5] flex justify-center items-center"
+              className="abc w-[76.784px] h-[76.784px] rounded-full bg-[#f5f5f5] flex justify-center items-center cursor-pointer"
               onClick={openModal}
             >
               <img

@@ -12,7 +12,7 @@ export default function LeftSideBar() {
           src="./images/dashboard_icon.svg"
           alt=""
         />
-        <span className="text-white font-montserrat text-[18px] font-bold mt-[60px] ml-[20px]">
+        <span className="text-white font-montserrat text-[18px] font-bold mt-[60px] ml-[20px] cursor-pointer">
           Dashboard
         </span>
       </div>
@@ -22,7 +22,7 @@ export default function LeftSideBar() {
           src="./images/transaction_icon.svg"
           alt=""
         />
-        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px]">
+        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px] cursor-pointer">
           Transactions
         </span>
       </div>
@@ -32,7 +32,7 @@ export default function LeftSideBar() {
           src="./images/schedule_icon.svg"
           alt=""
         />
-        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px]">
+        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px] cursor-pointer">
           Schedules
         </span>
       </div>
@@ -42,7 +42,7 @@ export default function LeftSideBar() {
           src="./images/user_icon.svg"
           alt=""
         />
-        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px]">
+        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px] cursor-pointer">
           Users
         </span>
       </div>
@@ -52,14 +52,14 @@ export default function LeftSideBar() {
           src="./images/setting_icon.svg"
           alt=""
         />
-        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px]">
+        <span className="text-white font-montserrat text-[18px] font-bold mt-[40px] ml-[20px] cursor-pointer">
           Settings
         </span>
       </div>
-      <div className="text-white font-montserrat text-[14px] font-normal xl:mt-[396px] ml-[50px]">
+      <div className="text-white font-montserrat text-[14px] font-normal xl:mt-[396px] ml-[50px] cursor-pointer">
         Help
       </div>
-      <div className="text-white font-montserrat text-[14px] font-normal mt-[20px] ml-[50px] xl:mb-0 max-xs:mb-10">
+      <div className="text-white font-montserrat text-[14px] font-normal mt-[20px] ml-[50px] xl:mb-0 max-xs:mb-10 cursor-pointer">
         Contact Us
       </div>
     </div>
