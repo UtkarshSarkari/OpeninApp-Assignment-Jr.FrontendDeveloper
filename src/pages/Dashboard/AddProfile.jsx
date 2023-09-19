@@ -282,7 +282,7 @@ export default function AddProfile() {
                       </label>
                       <div className="flex py-[12px] px-[16px] justify-between items-center self-stretch rounded-[8px] ring-1 ring-[#f2f2f2] bg-[#fff]">
                         <input
-                          type="text"
+                          type="email"
                           value={email}
                           onChange={(e) => {
                             setEmail(e.target.value);
@@ -355,7 +355,7 @@ export default function AddProfile() {
                       </label>
                       <div className="flex py-[12px] px-[16px] flex-col items-start self-stretch rounded-[8px] ring-1 ring-[#f2f2f2] bg-[#fff]">
                         <input
-                          type="text"
+                          type="url"
                           value={insta}
                           onChange={(e) => {
                             setInsta(e.target.value);
@@ -375,7 +375,7 @@ export default function AddProfile() {
                       </label>
                       <div className="flex py-[12px] px-[16px] justify-between items-center self-stretch rounded-[8px] ring-1 ring-[#f2f2f2] bg-[#fff]">
                         <input
-                          type="text"
+                          type="url"
                           value={youtube}
                           onChange={(e) => {
                             setYoutube(e.target.value);
